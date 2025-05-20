@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif; /*Fuente del texto */
+	background-color: #f0f0f0; /*color de fondo*/
+	margin: 0;  /*Elimina margenes por defecto */
+	padding: 0;    /*Elimina padding por defecto */
+	text-align: center ;
+	background-color: #f4f4f4;
+}
+
+header{
+	background:linear-gradient(to right, #4A90E2, #145388);
+	color: white;
+	padding: 50px 20px;
+}
+
+header h1{
+	font-size: 2.5em;
+}
+
+header p{
+	font-size: 1.2em;
+}
+
+button {
+	background-color: #ff6600;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	font-size: 1.2em;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #cc5200;
+}
+
+section {
+	padding:40px 20px;
+	max-width: 800px;
+	margin: auto;
+}
